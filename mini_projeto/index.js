@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
   res.json("Sucesso!");
 });
 
-// Lista de pessoas
+// Lista de produtos
 let produtos = [];
 
 //  Usando Middleware para logar as informações
